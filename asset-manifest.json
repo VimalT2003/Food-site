@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Food-site/static/css/main.25ed1115.css",
+    "main.js": "/Food-site/static/js/main.7c8b38b4.js",
+    "static/js/488.22db6b48.chunk.js": "/Food-site/static/js/488.22db6b48.chunk.js",
+    "static/media/discover-1.jpg": "/Food-site/static/media/discover-1.0d5cbfff7e74d5634114.jpg",
+    "static/media/sweets.jpg": "/Food-site/static/media/sweets.bbe0c129f38b47ebf5d0.jpg",
+    "static/media/cow-02.jpg": "/Food-site/static/media/cow-02.49915fb6c9b45a8408fc.jpg",
+    "static/media/dairy-bg.jpg": "/Food-site/static/media/dairy-bg.bba8c70d51d6224a03a6.jpg",
+    "static/media/discover-rice.jpg": "/Food-site/static/media/discover-rice.a1c12752180618c7013e.jpg",
+    "static/media/lassi.jpg": "/Food-site/static/media/lassi.2754983bc72dd5879951.jpg",
+    "static/media/milk-bg.jpg": "/Food-site/static/media/milk-bg.db312394b476f37f1147.jpg",
+    "static/media/milk-product.jpg": "/Food-site/static/media/milk-product.9799363af0ca464c1e55.jpg",
+    "static/media/curd.jpg": "/Food-site/static/media/curd.22b366c055a943848747.jpg",
+    "static/media/cow-01.jpg": "/Food-site/static/media/cow-01.5166578dfd651ef040b9.jpg",
+    "static/media/krishna.jpg": "/Food-site/static/media/krishna.e9d502a20b2a3411510f.jpg",
+    "static/media/paneer.jpg": "/Food-site/static/media/paneer.6ef55aa70cd07dbeba36.jpg",
+    "static/media/butter.jpg": "/Food-site/static/media/butter.a46d1ad5f115678abba8.jpg",
+    "static/media/dys-qr.png": "/Food-site/static/media/dys-qr.cf98c4fc6da4174a75b0.png",
+    "static/media/cake-peice.jpg": "/Food-site/static/media/cake-peice.aaaf5bbf77f04b869858.jpg",
+    "static/media/pancake.jpg": "/Food-site/static/media/pancake.2681d2f0bcf42653d3f0.jpg",
+    "static/media/salad.jpg": "/Food-site/static/media/salad.3d9b199510ec4af7ee54.jpg",
+    "index.html": "/Food-site/index.html",
+    "main.25ed1115.css.map": "/Food-site/static/css/main.25ed1115.css.map",
+    "main.7c8b38b4.js.map": "/Food-site/static/js/main.7c8b38b4.js.map",
+    "488.22db6b48.chunk.js.map": "/Food-site/static/js/488.22db6b48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25ed1115.css",
+    "static/js/main.7c8b38b4.js"
+  ]
+}
