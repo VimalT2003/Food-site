@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import krishna from '../images/krishna.jpg'
 import {
   AppBar,
   Box,
@@ -129,7 +130,7 @@ const Navbar = ({ scrollToContact }) => {
         <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
           <IconButton edge="start" color="inherit" aria-label="logo">
             <img
-              src="krishna.jpg"
+              src={krishna}
               alt="Logo"
               style={{
                 width: 40,

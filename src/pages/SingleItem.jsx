@@ -1,4 +1,5 @@
 import React from "react";
+import milkproduct from '../images/milk-product.jpg'
 import {
   Box,
   Typography,
@@ -117,7 +118,7 @@ const SingleItem = () => {
               >
                 <Box
                   component="img"
-                  src="milk-product.jpg"
+                  src={milkproduct}
                   alt="Cow Milk Product"
                   sx={{
                     width: "100%",

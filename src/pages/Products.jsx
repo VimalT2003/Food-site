@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import dysqr from '../images/dys-qr.png'
+import milkproduct from '../images/milk-product.jpg'
+import cow01 from '../images/cow-01.jpg'
+import curd from '../images/curd.jpg'
+import butter from '../images/butter.jpg'
 import {
   Box,
   List,
@@ -65,7 +70,7 @@ const products = [
     name: "Cow Milk",
     price: 53,
     quantity: "1/2l",
-    image: "milk-product.jpg",
+    image: milkproduct,
     features: [
       { label: "No Added Powder", desc: "Thick and creamy" },
       { label: "No added thickener", desc: "Creamy & Tasty" },
@@ -77,7 +82,7 @@ const products = [
     name: "Cow Milk",
     price: 56,
     quantity: "1/2l",
-    image: "cow-01.jpg",
+    image: cow01,
     features: [
       { label: "No Added Powder", desc: "Thick and creamy" },
       { label: "No added thickener", desc: "Creamy & Tasty" },
@@ -89,7 +94,7 @@ const products = [
     name: "Buffalo milk",
     price: 53,
     quantity: "1/2l",
-    image: "cow-01.jpg",
+    image: cow01,
     features: [
       { label: "No Added Powder", desc: "Thick and creamy" },
       { label: "No added thickener", desc: "Creamy & Tasty" },
@@ -101,7 +106,7 @@ const products = [
     name: "Buffalo Milk",
     price: 53,
     quantity: "1/2l",
-    image: "cow-01.jpg",
+    image: cow01,
     features: [
       { label: "No Added Powder", desc: "Thick and creamy" },
       { label: "No added thickener", desc: "Creamy & Tasty" },
@@ -113,7 +118,7 @@ const products = [
     name: "Cow Milk",
     price: 56,
     quantity: "1/2l",
-    image: "curd.jpg",
+    image: curd,
     features: [
       { label: "No Added Powder", desc: "Thick and creamy" },
       { label: "No added thickener", desc: "Creamy & Tasty" },
@@ -125,7 +130,7 @@ const products = [
     name: "Buffalo milk",
     price: 53,
     quantity: "1/2l",
-    image: "butter.jpg",
+    image: butter,
     features: [
       { label: "No Added Powder", desc: "Thick and creamy" },
       { label: "No added thickener", desc: "Creamy & Tasty" },
@@ -258,7 +263,7 @@ export default function Products() {
             >
               <Box textAlign="center">
                 <img
-                  src="dys-qr.png" // Replace with your QR code image
+                  src={dysqr} // Replace with your QR code image
                   alt="QR Code"
                   style={{ width: "100%", maxWidth: "150px" }}
                 />

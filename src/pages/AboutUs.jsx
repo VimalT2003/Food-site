@@ -1,5 +1,8 @@
 import { Box, Typography, Grid, Container } from "@mui/material";
 import Freshness from "../components/Freshness";
+import milkbg from '../images/milk-bg.jpg'
+import cow01 from '../images/cow-01.jpg'
+import cow02 from '../images/cow-02.jpg'
 import {
   HomeOutlined,
   LocalDrinkOutlined,
@@ -50,7 +53,7 @@ const AboutUs = () => {
       >
         {/* Background Image */}
         <img
-          src="milk-bg.jpg"
+          src={milkbg}
           alt="Fresh Milk Background"
           style={{
             width: "100%",
@@ -161,7 +164,7 @@ const AboutUs = () => {
             >
               <Box
                 component="img"
-                src="cow-01.jpg"
+                src={cow01}
                 alt="Cow in the field"
                 sx={{
                   width: { xs: "100%", sm: "90%", md: "95%" },
@@ -264,7 +267,7 @@ const AboutUs = () => {
             >
               <Box
                 component="img"
-                src="cow-02.jpg"
+                src={cow02}
                 alt="Farmers with cows"
                 sx={{
                   width: { xs: "98%", sm: "90%", md: "85%" },

@@ -4,6 +4,22 @@ import ContactUs from "./ContactUs";
 import ProductTypes from "../components/ProductTypes";
 import { useImperativeHandle } from "react";
 import Testimonials from "../components/Testimonials";
+import dairybg from '../images/dairy-bg.jpg'
+import milkcookie from '../images/milk-cookie.jpg'
+import milkcake from '../images/milk-cake.jpg'
+import pancake from '../images/pancake.jpg'
+import cakepeice from '../images/cake-peice.jpg'
+import berries from '../images/berries.jpg'
+import salad from '../images/salad.jpg'
+import discover1 from '../images/discover-1.jpg'
+import discoverrice from '../images/discover-rice.jpg'
+import discoverhoney from '../images/discover-honey.jpg'
+import milkbg from '../images/milk-bg.jpg'
+import curd from '../images/curd.jpg'
+import paneer from '../images/paneer.jpg'
+import lassi from '../images/lassi.jpg'
+import butter from '../images/butter.jpg'
+import sweets from '../images/sweets.jpg'
 import {
   HomeOutlined,
   LocalDrinkOutlined,
@@ -16,19 +32,19 @@ import { forwardRef, useRef } from "react";
 
 const cards = [
   {
-    image: "discover-1.jpg",
+    image: discover1,
     title: "Indulge in the Creamiest and Most Delicious Dairy Delights",
     description:
       "From farm to table, our dairy products are made with love and care.",
   },
   {
-    image: "discover-rice.jpg",
+    image: discoverrice,
     title: "Indulge in the Creamiest and Most Delicious Dairy Delights",
     description:
       "From farm to table, our dairy products are made with love and care.",
   },
   {
-    image: "discover-honey.jpg",
+    image: discoverhoney,
     title: "Indulge in the Creamiest and Most Delicious Dairy Delights",
     description:
       "From farm to table, our dairy products are made with love and care.",
@@ -36,12 +52,12 @@ const cards = [
 ];
 
 const items = [
-  { bgImage: "milk-bg.jpg", title: "UTH Milk" },
-  { bgImage: "curd.jpg", title: "Curd" },
-  { bgImage: "paneer.jpg", title: "Paneer" },
-  { bgImage: "lassi.jpg", title: "Lassi" },
-  { bgImage: "butter.jpg", title: "Butter" },
-  { bgImage: "sweets.jpg", title: "Sweets" },
+  { bgImage: milkbg, title: "UTH Milk" },
+  { bgImage: curd, title: "Curd" },
+  { bgImage: paneer, title: "Paneer" },
+  { bgImage: lassi, title: "Lassi" },
+  { bgImage: butter, title: "Butter" },
+  { bgImage: sweets, title: "Sweets" },
 ];
 
 // Testimonials
@@ -126,7 +142,7 @@ const Home = forwardRef((props, ref) => {
         }}
       >
         <img
-          src="dairy-bg.jpg"
+          src={dairybg}
           alt="Home Dairy"
           style={{
             width: "100%", // Fixes potential overflow
@@ -159,22 +175,22 @@ const Home = forwardRef((props, ref) => {
         </Typography>
         <Grid container sx={{ maxWidth: "90%", margin: "0 auto" }} spacing={1}>
           <Grid item xs={6} sm={4} md={4} lg={2}>
-            <ProductCategory image="milk-cookie.jpg" name="Milk & Cookies" />
+            <ProductCategory image={milkcookie} name="Milk & Cookies" />
           </Grid>
           <Grid item xs={6} sm={4} md={4} lg={2}>
-            <ProductCategory image="milk-cake.jpg" name="Milk Cake" />
+            <ProductCategory image={milkcake} name="Milk Cake" />
           </Grid>
           <Grid item xs={6} sm={4} md={4} lg={2}>
-            <ProductCategory image="pancake.jpg" name="Pancakes" />
+            <ProductCategory image={pancake} name="Pancakes" />
           </Grid>
           <Grid item xs={6} sm={4} md={4} lg={2}>
-            <ProductCategory image="cake-peice.jpg" name="Cake Piece" />
+            <ProductCategory image={cakepeice} name="Cake Piece" />
           </Grid>
           <Grid item xs={6} sm={4} md={4} lg={2}>
-            <ProductCategory image="berries.jpg" name="Berries" />
+            <ProductCategory image={berries} name="Berries" />
           </Grid>
           <Grid item xs={6} sm={4} md={4} lg={2}>
-            <ProductCategory image="salad.jpg" name="Salad" />
+            <ProductCategory image={salad} name="Salad" />
           </Grid>
         </Grid>
       </Box>
